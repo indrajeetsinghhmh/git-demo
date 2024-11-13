@@ -29,5 +29,32 @@ This is tutorial of using git and github.
 4. {git branch -M main} to rename branch
 
 8. Merge add & commit by using {git commit -am "message"} valid only if we modified only one file
+
+# Branch Commands
+1. {git branch} to check branch
+2. {git branch -M main} to rename branch
+3. {git checkout <branch name>} to navigate
+4. {git checkout -b <new branch name>} to create new branch
+5. {git branch -d <branch name>} to delete the branch
+
+#Merge two branches
+1. {git diff <branch_name>} to compare commits, branches, file & more
+2. {git merge <branch_name>} to merge 2 branches
+3. CREATE a PR (Pull request)
+4. {git pull origin main} used to fetch & download content from remote repo & immediately update the local repo to match that content
+
+# FIXING MISTAKES
+~ Staged changes
+1. git reset <filename>
+2. git reset 
+
+~ Commit changes
+1. git reset HEAD~1
+
+# {git log} to check log record
+
+2. {git reset <commithash>} hash is commit code, copy from log records
+3. {git reset --hard <commithash>}  to forcefully remove the changes
+
 # author
 Winny X
