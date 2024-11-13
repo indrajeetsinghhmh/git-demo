@@ -27,5 +27,7 @@ This is tutorial of using git and github.
 2. {git remote -v} to verify
 3. {git branch} to check branch
 4. {git branch -M main} to rename branch
+
+8. Merge add & commit by using {git commit -am "message"} valid only if we modified only one file
 # author
 Winny X
