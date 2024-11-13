@@ -19,5 +19,13 @@ This is tutorial of using git and github.
 5. PUSH
     push command is used to push from local system to global github server by using {git push origin main}
 
+6. INIT
+    used to create new github REPO by using {git init}
+
+7. REMOTE
+1. {git remote add origin <link>} for making origin on git repo
+2. {git remote -v} to verify
+3. {git branch} to check branch
+4. {git branch -M main} to rename branch
 # author
 Winny X
