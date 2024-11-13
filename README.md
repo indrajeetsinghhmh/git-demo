@@ -45,7 +45,7 @@ This is tutorial of using git and github.
 
 # FIXING MISTAKES
 ~ Staged changes
-1. git reset <filename>
+1. git reset <-filename->
 2. git reset 
 
 ~ Commit changes
