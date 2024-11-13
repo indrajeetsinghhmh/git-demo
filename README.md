@@ -3,14 +3,14 @@ This is tutorial of using git and github.
 
 # commands
 1. Clone
-    clone any repo from github using { git clone <link> }
+    clone any repo from github using { git clone <_link_> }
 
 2. STATUS
     showing status of files that they are untracked, unmodified, modified or added
     by using {git status}
 
 3. ADD
-    add file to server. You can add single files by using {git add <filename.extension>}
+    add file to server. You can add single files by using {git add <_filename.extension_>}
     Or, you can add all files together by using {git add .}
 
 4. COMMIT
@@ -23,7 +23,7 @@ This is tutorial of using git and github.
     used to create new github REPO by using {git init}
 
 7. REMOTE
-1. {git remote add origin <link>} for making origin on git repo
+1. {git remote add origin <_link_>} for making origin on git repo
 2. {git remote -v} to verify
 3. {git branch} to check branch
 4. {git branch -M main} to rename branch
@@ -33,13 +33,13 @@ This is tutorial of using git and github.
 # Branch Commands
 1. {git branch} to check branch
 2. {git branch -M main} to rename branch
-3. {git checkout <branch name>} to navigate
-4. {git checkout -b <new branch name>} to create new branch
-5. {git branch -d <branch name>} to delete the branch
+3. {git checkout <_branch name_>} to navigate
+4. {git checkout -b <_new branch name_>} to create new branch
+5. {git branch -d <_branch name_>} to delete the branch
 
 #Merge two branches
-1. {git diff <branch_name>} to compare commits, branches, file & more
-2. {git merge <branch_name>} to merge 2 branches
+1. {git diff <_branch_name_>} to compare commits, branches, file & more
+2. {git merge <_branch_name_>} to merge 2 branches
 3. CREATE a PR (Pull request)
 4. {git pull origin main} used to fetch & download content from remote repo & immediately update the local repo to match that content
 
